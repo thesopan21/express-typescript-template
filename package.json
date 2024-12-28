@@ -1,5 +1,5 @@
 {
-  "name": "express-typescript-template",
+  "name": "@thesopan21/express-typescript-template",
   "version": "1.0.0",
   "description": "production-ready backend with Express and TypeScript",
   "main": "index.js",
