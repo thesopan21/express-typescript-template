@@ -1,0 +1,36 @@
+{
+  "name": "express-typescript-template",
+  "version": "1.0.0",
+  "description": "production-ready backend with Express and TypeScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesopan21/express-typescript-template.git"
+  },
+  "keywords": [
+    "production",
+    "template",
+    "backend-boilerplate-ts",
+    "node-ts-production-setup",
+    "prod-ready-backend-ts",
+    "professional-backend-ts"
+  ],
+  "author": "thesopan21",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thesopan21/express-typescript-template/issues"
+  },
+  "bin": {
+    "create-express-typescript": "index.js"
+  },
+  "homepage": "https://github.com/thesopan21/express-typescript-template#readme",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "prompts": "^2.4.2"
+  }
+}
