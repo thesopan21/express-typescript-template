@@ -1,6 +1,6 @@
 # Production Ready Backend Setup (Express and Typescript)
 
-Setting up a production-ready backend with Express (Node.js) and TypeScript involves several steps to ensure scalability, maintainability, and security.
+Easily scaffold a production-ready backend application using Express (Node.js) and TypeScript. This tool helps you create a boilerplate project with best practices for scalability, maintainability, and security.
 
 <h2>Prerequisites</h2>
 
@@ -14,7 +14,7 @@ Scaffold your new Express TypeScript project in seconds
 
 1. Open your terminal and Run the following command:
     ```bash
-    npx create-express-typescript your_app_name
+    npx create-express-typescript
     ```
 2. Navigate to your project directory:
     ```bash
