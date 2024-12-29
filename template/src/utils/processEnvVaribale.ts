@@ -1,10 +1,10 @@
+import { EnvironmentVariable } from "@/types/envVaribaleTypes";
 import dotenv from "dotenv";
 
 dotenv.config();
 
-const processEnvironmentVariable = () => {
-  return process.env;
-};
+const { env } = process as EnvironmentVariable;
 
-const environmentVariable = processEnvironmentVariable();
-export default environmentVariable;
+// export all required environment variable here
+export const PORT = env.PORT;
+export const MONGO_DB_URI = env.MONGO_DB_URI;
