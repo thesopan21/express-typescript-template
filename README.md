@@ -40,8 +40,13 @@ your_app_name/
     │   ├── models/
     │   │   └── exampleModel.ts        # Example database model
     │   ├── middlewares/
-    │       ├── errorHandler.ts        # Global error handling middleware
-    │       └── logger.ts              # Logging middleware
+    │   |    ├── errorHandler.ts        # Global error handling middleware
+    │   |    └── logger.ts              # Logging middleware
+    │   ├── utils/
+    │   │   └── processEnvVaribale.ts   # process env varibales with type safety
+    │   ├── types/
+    │   │   └── envVariableTypes.ts     # env variable types
+    |
     ├── tsconfig.json                   # TypeScript configuration
     ├── package.json                    # Project metadata and dependencies
     ├── .env                            # Environment variable configuration
